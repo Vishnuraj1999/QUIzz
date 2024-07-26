@@ -1,0 +1,29 @@
+  body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #001f3f;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            color: #000;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+        .result-summary {
+            background-color: #41BA90;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 2rem;
+            color: #000;
+        }
